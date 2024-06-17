@@ -33,21 +33,25 @@ const commons = {
   9: "#notification,.notification,#notifications,.notifications{display:none !important}",
   10: "#alert,.alert{display:none !important}",
   11: "#notice,.notice,#notices,.notices{display:none !important}",
-  12: 'body > div:not([id]):not([class])[style*="fixed"],body > div:not([id]):not([class])[style*="absolute"]{display:none !important}',
+  12:
+    'body > div:not([id]):not([class])[style*="fixed"],body > div:not([id]):not([class])[style*="absolute"]{display:none !important}',
   13: "#popup,.popup{display:none !important}",
-  14: ".modal-backdrop,.veil{display:none !important} .modal-open{overflow:unset !important; padding-right: 0px !important}",
+  14:
+    ".modal-backdrop,.veil{display:none !important} .modal-open{overflow:unset !important; padding-right: 0px !important}",
   15: "#toast,.toast{display:none !important}",
   16: "#privacy,.privacy{display:none !important}",
   17: "#overlay,.overlay{display:none !important}",
   18: '#lithium-root > [role="button"]{display:none !important}',
-  19: '#SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]{display:none !important}',
+  19:
+    '#SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]{display:none !important}',
   20: "#cookie-modal,.cookie-modal{display:none !important}",
   21: ".banner,#banner{display:none !important}",
   22: ".config-messages{display:none !important}",
   23: "#cnil,.cnil,#CNIL{display:none !important}",
   24: ".MuiSnackbar-root{display:none !important}",
   25: ".alert-info,.alert-warning,.alert-box{display:none !important}",
-  26: "#privacy-policy,.privacy-policy,#privacyPolicy,.privacyPolicy{display:none !important}",
+  26:
+    "#privacy-policy,.privacy-policy,#privacyPolicy,.privacyPolicy{display:none !important}",
   27: ".ui-widget,.ui-widget-overlay{display:none !important}",
   28: "#root > footer ~ div{display:none !important}",
   29: ".uk-position-fixed{display:none !important}",
@@ -59,7 +63,8 @@ const commons = {
   35: "#fancybox-overlay,#fancybox-wrap{display:none !important}",
   36: ".configMessages{display:none !important}",
   37: "#message,.message{display:none !important}",
-  38: "#system-message,#system-messages,#system-message-container{display:none !important}",
+  38:
+    "#system-message,#system-messages,#system-message-container{display:none !important}",
   39: "#cookies-modal,.cookies-modal{display:none !important}",
   40: ".uk-notification{display:none !important}",
   41: ".st_notification_wrap{display:none !important}",
@@ -80,7 +85,8 @@ const commons = {
   56: "#chorus_notifiations{display:none !important}",
   57: "#SITE_ROOT ~ .siteAspectsContainer{display:none !important}",
   58: ".modal__bg{display:none !important}",
-  59: "#modal-cookie,.modal-cookie,#modal-cookies,.modal-cookies{display:none !important}",
+  59:
+    "#modal-cookie,.modal-cookie,#modal-cookies,.modal-cookies{display:none !important}",
   60: ".ec-notices{display:none !important}",
   61: "#popup_wrapper{display:none !important}",
   62: ".confidentialite{display:none !important}",
@@ -106,7 +112,8 @@ const commons = {
   82: ".v-overlay,.v-dialog__content{display:none !important}",
   83: "#toast-container{display:none !important}",
   84: "#cookieman-modal{display:none !important}",
-  85: "html,body{overflow-y:unset !important; overflow:unset !important; position:unset !important}",
+  85:
+    "html,body{overflow-y:unset !important; overflow:unset !important; position:unset !important}",
   86: "#notify-container{display:none !important}",
   87: "#bt_notification{display:none !important}",
   88: ".opt-in{display:none !important}",
@@ -190,7 +197,8 @@ const commons = {
   166: "#cookiesModal{display:none !important}",
   167: ".cookie-box{display:none !important}",
   168: "main ~ div{display:none !important}",
-  169: "body{touch-action:unset !important; overflow: unset !important; overscroll-behavior: unset !important;}",
+  169:
+    "body{touch-action:unset !important; overflow: unset !important; overscroll-behavior: unset !important;}",
 };
 
 const rules = {
@@ -18520,6 +18528,7 @@ const rules = {
   "blaetterkatalog.welt.de": { j: 3 },
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
+  "link.springer.com": { j: 5 },
 };
 
 const blockUrls = {
@@ -20681,4 +20690,4 @@ const blockUrls = {
   },
 };
 
-export { blockUrls, rules, commons, commonJSHandlers };
+export { blockUrls, commonJSHandlers, commons, rules };

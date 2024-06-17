@@ -8438,6 +8438,8 @@ function getSelector(host) {
       return '.modal[style*="block"] #button_accept_cookies';
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
+    case "link.springer.com":
+      return 'button.cc-button:nth-child(2)'
   }
 
   if (host.parts.length > 2) {
