@@ -18529,6 +18529,7 @@ const rules = {
   "mazda-autohaus-kaschmieder-waren.de": { j: 5 },
   "linasmatkasse.se": { j: 5 },
   "link.springer.com": { j: 5 },
+  "parti-equinoxe.fr": { j: 5 },
 };
 
 const blockUrls = {

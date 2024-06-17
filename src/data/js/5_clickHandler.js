@@ -8439,7 +8439,9 @@ function getSelector(host) {
     case "linasmatkasse.se":
       return "div#cookies button#accept-selected-cookies-btn";
     case "link.springer.com":
-      return 'button.cc-button:nth-child(2)'
+      return 'button.cc-button:nth-child(2)';
+    case "parti-equinoxe.fr":
+      return '#cdc-cookie-step-main-acceptall';
   }
 
   if (host.parts.length > 2) {
